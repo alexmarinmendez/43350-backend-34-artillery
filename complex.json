@@ -1,0 +1,166 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 40,
+      "vusers.created": 40,
+      "http.requests": 45,
+      "http.codes.200": 5,
+      "http.responses": 5,
+      "http.downloaded_bytes": 130,
+      "errors.ETIMEDOUT": 40,
+      "vusers.failed": 40
+    },
+    "rates": {
+      "http.request_rate": 2
+    },
+    "firstCounterAt": 1694566672581,
+    "firstHistogramAt": 1694566674275,
+    "lastCounterAt": 1694566692640,
+    "lastHistogramAt": 1694566682617,
+    "firstMetricAt": 1694566672581,
+    "lastMetricAt": 1694566692640,
+    "period": 1694566690000,
+    "summaries": {
+      "http.response_time": {
+        "min": 1601,
+        "max": 9919,
+        "count": 5,
+        "p50": 6838,
+        "median": 6838,
+        "p75": 8352,
+        "p90": 8352,
+        "p95": 8352,
+        "p99": 8352,
+        "p999": 8352
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 1601,
+        "max": 9919,
+        "count": 5,
+        "p50": 6838,
+        "median": 6838,
+        "p75": 8352,
+        "p90": 8352,
+        "p95": 8352,
+        "p99": 8352,
+        "p999": 8352
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 40,
+        "vusers.created": 40,
+        "http.requests": 43,
+        "http.codes.200": 3,
+        "http.responses": 3,
+        "http.downloaded_bytes": 78
+      },
+      "rates": {
+        "http.request_rate": 6
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694566672581,
+      "firstHistogramAt": 1694566674275,
+      "lastCounterAt": 1694566679475,
+      "lastHistogramAt": 1694566679472,
+      "firstMetricAt": 1694566672581,
+      "lastMetricAt": 1694566679475,
+      "period": "1694566670000",
+      "summaries": {
+        "http.response_time": {
+          "min": 1601,
+          "max": 6776,
+          "count": 3,
+          "p50": 5272.4,
+          "median": 5272.4,
+          "p75": 5272.4,
+          "p90": 5272.4,
+          "p95": 5272.4,
+          "p99": 5272.4,
+          "p999": 5272.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 1601,
+          "max": 6776,
+          "count": 3,
+          "p50": 5272.4,
+          "median": 5272.4,
+          "p75": 5272.4,
+          "p90": 5272.4,
+          "p95": 5272.4,
+          "p99": 5272.4,
+          "p999": 5272.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 2,
+        "http.responses": 2,
+        "http.downloaded_bytes": 52,
+        "http.requests": 2,
+        "errors.ETIMEDOUT": 38,
+        "vusers.failed": 38
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1694566681021,
+      "firstHistogramAt": 1694566681021,
+      "lastCounterAt": 1694566689491,
+      "lastHistogramAt": 1694566682617,
+      "firstMetricAt": 1694566681021,
+      "lastMetricAt": 1694566689491,
+      "period": "1694566680000",
+      "summaries": {
+        "http.response_time": {
+          "min": 8325,
+          "max": 9919,
+          "count": 2,
+          "p50": 8352,
+          "median": 8352,
+          "p75": 8352,
+          "p90": 8352,
+          "p95": 8352,
+          "p99": 8352,
+          "p999": 8352
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 8325,
+          "max": 9919,
+          "count": 2,
+          "p50": 8352,
+          "median": 8352,
+          "p75": 8352,
+          "p90": 8352,
+          "p95": 8352,
+          "p99": 8352,
+          "p999": 8352
+        }
+      }
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 2,
+        "vusers.failed": 2
+      },
+      "rates": {},
+      "firstCounterAt": 1694566691025,
+      "lastCounterAt": 1694566692640,
+      "firstMetricAt": 1694566691025,
+      "lastMetricAt": 1694566692640,
+      "period": "1694566690000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}
